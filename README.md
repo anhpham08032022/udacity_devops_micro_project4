@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+CircleCI: https://app.circleci.com/pipelines/github/anhpham08032022/udacity_devops_micro_project4
 
 ## Project Overview
 
@@ -31,7 +31,7 @@ python3 -m pip install --user virtualenv
 # You should have Python 3.7 available in your host. 
 # Check the Python path using `which python3`
 # Use a command similar to this one:
-python3 -m virtualenv --python=<path-to-Python3.7> .devops
+python3 -m venv .devops
 source .devops/bin/activate
 ```
 * Run `make install` to install the necessary dependencies
